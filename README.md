@@ -45,7 +45,7 @@ venv\Scripts\activate      # Windows
 ```bash
 DATABASE_URL=postgresql+psycopg2://**username:password@localhost:5432**/**your_database**
 ```
-## 4️⃣ Run the ETL Pipeline
+### 4️⃣ Run the ETL Pipeline
 ```bash
 python -m src.main
 ```
