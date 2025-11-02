@@ -1,10 +1,10 @@
-# 🧩 Hugging Face ETL Pipeline
+# Hugging Face ETL Pipeline
 
 A simple **ETL (Extract, Transform, Load)** pipeline that demonstrates how to extract data from the **Hugging Face Datasets Hub**, transform it using **pandas**, and load it into a **PostgreSQL** database.
 
 ---
 
-## 🚀 Overview
+## Overview
 
 This project shows the fundamentals of data engineering by automating three core stages:
 
@@ -14,7 +14,7 @@ This project shows the fundamentals of data engineering by automating three core
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ```bash
 ETL_data_pipeline/
 │
@@ -30,22 +30,22 @@ ETL_data_pipeline/
 ```
 ---
 ## ⚙️ Installation
-### 1️⃣ Clone the repository
+### 1️ Clone the repository
 ```bash
 git clone https://github.com/Dungpham0703/ETL_data_pipeline.git
 cd ETL_data_pipeline
 ```
-### 2️⃣ Create a virtual environment
+### 2️ Create a virtual environment
 ```bash
 python -m venv venv
 source venv/bin/activate   # macOS/Linux
 venv\Scripts\activate      # Windows
 ```
-### 3️⃣ Setup environment variables
+### 3️ Setup environment variables
 ```bash
 DATABASE_URL=postgresql+psycopg2://**username:password@localhost:5432**/**your_database**
 ```
-### 4️⃣ Run the ETL Pipeline
+### 4️ Run the ETL Pipeline
 ```bash
 python -m src.main
 ```
