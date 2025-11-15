@@ -3,7 +3,7 @@ from src.transform import transform_data
 from src.load import load_data
 
 def run_pipeline():
-    print("Starting ETL Pipeline...")
+    print("Starting ETL Pipeline")
     
     df = extract_data()
     print(f"Extracted {len(df)} rows")
